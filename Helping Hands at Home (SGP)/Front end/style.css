@@ -1,0 +1,180 @@
+#header{
+    
+    background-image: url(manageimage.jpg) ;
+    
+    background-size: cover;
+    height: 650px;
+}
+
+#header .banner-message{
+    color: #ffffff;
+    margin-top: 200px;
+    
+}
+
+.form-box{
+    background-color: rgba(0, 81, 255, 0.377);
+    border: solid 1px rgba(0, 68, 216, 0.377);
+}
+
+a:visited button.banner-button , a:link button.banner-button {
+    background-color: rgb(255, 180, 0);
+    border: rgb(255, 180, 0) 1px solid;
+    color: #ffffff;
+    font-size: smaller;
+    padding: 10px 2rem;
+    box-shadow: none;
+}
+
+a:hover button.banner-button{
+    background-color: rgba(255, 179, 0, 0);
+    border: rgb(255, 180, 0) 1px solid;
+    color: rgb(255, 180, 0);
+    box-shadow: none;
+    
+}
+
+
+#service .service-box , #feature .feature-box{
+    background-color: rgb(247, 245, 245);
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+}
+
+#service .service-box:hover{
+box-shadow:5px 10px 10px gray;    
+color: rgb(255, 180, 0);
+}
+
+#service .service-box a h5{
+    color: black;
+    text-decoration: none;
+}
+
+.lnr-user::before {
+    content: "\e82a";
+}
+
+.pictureleft{
+    background-image: url(left.jpg);
+    height: 500px;
+    background-size: cover;
+}
+
+p.padd{
+    margin-right: 20%;
+}
+
+
+a:visited button.sel-button , a:link button.sel-button {
+    background-color: rgb(48, 48, 48);
+    border: rgb(48, 48, 48) 1px solid;
+    color: #ffffff;
+    font-size: smaller;
+    padding: 10px 2rem;
+    box-shadow: none;
+}
+
+a:hover button.sel-button{
+    background-color: rgba(48, 48, 48, 1);
+    border: rgb(255, 180, 0) 1px solid;
+    color: rgb(255, 180, 0);
+    box-shadow: none;
+    
+}
+
+.yellob{
+    background-color: rgb(255, 180, 0);
+    padding: 5rem 0px;
+}
+
+.yellob h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.feature-box:hover{
+box-shadow:5px 10px 10px gray;    
+}
+
+#support{
+    background-image: url(supportbg.jpg);
+    background-size: cover;
+    color: #ffffff;
+    padding: 5rem;
+}
+
+.date-block{
+    display: flex;
+    background-color: black;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-top: .5rem;
+    width: 40%;
+    font-size: small;
+}
+
+#latest .hov:hover{
+    color: rgb(255, 180, 0);
+}
+
+#footer{
+    background-color: rgb(20, 20, 56);
+    color: #ffffff;
+    padding:5rem 0rem ;
+}
+
+#footer ul li{
+    
+    list-style: none;    
+}
+
+#footer ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#footer ul li a:visited , #footer ul li a:link{
+    text-decoration: none;
+    color: #6c757d;
+}
+
+#footer .email-btn{
+    background-color: rgb(255, 180, 0);
+    color: #ffffff;
+    border: none;
+    padding: 7px 12px;
+}
+
+#footer .form-control{
+    border-radius: 0px;
+}
+
+#footer .copyright span{
+    color: rgb(255, 180, 0);
+}
+
+.rent h2{
+    color: rgb(255, 180, 0);
+}
+
+.rent h2 span{
+
+    font-size: 20px;
+}
+
+
+
+
+@media (max-width:700px){
+   #header .banner-message{
+        display: none;
+        margin-top: 0px;
+    }
+    #header .form-box{
+        margin: 0rem 1rem;
+    }
+}
